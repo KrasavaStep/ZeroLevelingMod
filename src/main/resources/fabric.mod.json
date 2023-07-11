@@ -1,12 +1,12 @@
 {
 	"schemaVersion": 1,
-	"id": "zeroleveling",
+	"id": "zerolevelingmod",
 	"version": "${version}",
 	"name": "ZeroLeveling",
 	"description": "Description :)",
 	"authors": [
 		"mini-panda",
-		""
+		"abrebola"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
