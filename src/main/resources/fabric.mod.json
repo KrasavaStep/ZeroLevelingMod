@@ -1,0 +1,45 @@
+{
+	"schemaVersion": 1,
+	"id": "zeroleveling",
+	"version": "${version}",
+	"name": "ZeroLeveling",
+	"description": "Description :)",
+	"authors": [
+		"mini-panda",
+		""
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/zeroleveling/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.ZeroLevelingMod"
+		],
+		"client": [
+			"com.example.ZeroLevelingModClient"
+		],
+		"fabric-datagen": [
+			"com.example.ZeroLevelingModDataGenerator"
+		]
+	},
+	"mixins": [
+		"zeroleveling.mixins.json",
+		{
+			"config": "zeroleveling.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
