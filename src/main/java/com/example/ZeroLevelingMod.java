@@ -1,8 +1,11 @@
 package com.example;
 
+import com.example.items.ModItemGroup;
+import com.example.items.ModItems;
 import com.example.world.structures.ModStructures;
 import net.fabricmc.api.ModInitializer;
 
+import net.minecraft.item.ItemGroups;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,8 +16,9 @@ public class ZeroLevelingMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Zero Leveling!");
-
+		ModItemGroup.registerItemGroups();
+		ModItems.registerModItems();
 		ModStructures.registerStructureFeatures();
+
 	}
 }
