@@ -2,5 +2,8 @@
   "item.zerolevelingmod.sapphire": "Sapphire",
   "item.zerolevelingmod.gem": "Gem",
 
-  "itemgroup.zerolevelinggroup": "Zero Leveling Item Group"
+  "block.zerolevelingmod.sapphire_ore": "Sapphire Ore",
+  "block.zerolevelingmod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+
+  "itemgroup.zerolevelinggroup": "Zero Leveling"
 }

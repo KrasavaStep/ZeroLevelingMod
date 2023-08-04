@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "zerolevelingmod:block/sapphire_ore"
+  }
+}

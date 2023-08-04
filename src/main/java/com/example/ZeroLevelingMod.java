@@ -1,5 +1,6 @@
 package com.example;
 
+import com.example.block.ModBlocks;
 import com.example.items.ModItemGroup;
 import com.example.items.ModItems;
 import com.example.world.structures.ModStructures;
@@ -18,6 +19,7 @@ public class ZeroLevelingMod implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBocks();
 		ModStructures.registerStructureFeatures();
 
 	}
